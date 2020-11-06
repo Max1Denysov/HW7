@@ -39,13 +39,13 @@ function slideBack() {
   }
 }
 
-// LOAD EVENT
+
 window.addEventListener("load", slideWidth);
 
-// RESIZE EVENT
+
 window.addEventListener("resize", slideWidth);
 
-// BUTTON EVENTS
+
 nextButton.addEventListener("click", event => {
   clearInterval(autoSlide);
   slideFoward();
@@ -56,7 +56,7 @@ prevButton.addEventListener("click", event => {
   slideBack();
 });
 
-// TOUCH EVENTS
+
 container.addEventListener("touchstart", event => {
   clearInterval(autoSlide);
   startX = event.touches[0].screenX;
@@ -75,7 +75,7 @@ container.addEventListener("touchend", event => {
   }
 });
 
-// MOUSE EVENTS
+
 container.addEventListener("mousedown", event => {
   event.preventDefault();
   clearInterval(autoSlide);
