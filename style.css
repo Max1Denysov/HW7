@@ -16,6 +16,7 @@ h1 {
   color: #fff;
   text-align: center;
   font-weight: 300;
+  
 }
 
 #slider {
@@ -31,6 +32,7 @@ h1 {
   padding: 0;
   height: 200px;
   list-style: none;
+   list-style-image: url('1.jpg');
 }
 
 #slider ul li {
