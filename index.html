@@ -1,31 +1,49 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title> </title>
+  <title>CodePen - Simple Slider</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
- 
- 
-<div id="slider">
-  <a href="#" class="control_next">>></a>
-  <a href="#" class="control_prev"><</a>
-  <ul>
-    <li>SLIDE 1</li>
-    <li background-image: url(../images/ourlocation.jpg></li>
-    <li>SLIDE 3</li>
-    <li style="background: #aaa;">SLIDE 4</li>
-  </ul>  
-</div>
+<!-- partial:index.partial.html -->
+<div class="slider">
 
-<div class="slider_option">
-  <input type="checkbox" id="checkbox">
-  <label for="checkbox">Autoplay Slider</label>
+  <div class="slides">
+
+    <div class="slide">
+      <img src="1.jpg" alt="">
+    </div>
+
+    <div class="slide">
+      <img src="2.jpg" alt="">
+    </div>
+
+    <div class="slide">
+      <img src="3.jpg alt="">
+    </div>
+
+    <div class="slide">
+      <img src="4.jpg" alt="">
+    </div>
+
+   
+  </div>
+
+  <div class="controls">
+
+    <div class="dots"></div>
+
+    <button class="prev">Prev</button>
+    <button class="next">Next</button>
+
+  </div>
+
 </div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+  <script  src="./script.js"></script>
 
 </body>
 </html>
+ 
